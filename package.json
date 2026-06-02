@@ -1,0 +1,33 @@
+{
+  "name": "ai-first-task-manager",
+  "version": "1.0.0",
+  "description": "Um projeto didático para ensinar conceitos e práticas de desenvolvimento impulsionado por IA (AI-First Development).",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai-first",
+    "tutorial",
+    "typescript",
+    "fastify",
+    "vitest",
+    "github-copilot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}
